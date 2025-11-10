@@ -1,6 +1,3 @@
-# Email-Optimization-Assistant
-Automates Gmail extraction and gives daily summaries using OpenAI API.
-
 # 📧 Email Optimization Assistant
 
 This project automates daily email summarization and organization using the Gmail and OpenAI APIs.
