@@ -18,8 +18,10 @@ This project automates daily email summarization and organization using the Gmai
 ---
 
 ## 🏗️ Architecture
+
 ```mermaid
 flowchart TD
-  A[Fetch Emails (Gmail API)] --> B[Summarize Text (OpenAI API)]
-  B --> C[Save Summary File]
-  C --> D[Automated Scheduler or CI/CD]
+  A["Fetch Emails (Gmail API)"] --> B["Summarize Text (OpenAI API)"]
+  B --> C["Save Summary File"]
+  C --> D["Automated Scheduler or CI/CD"]
+```
