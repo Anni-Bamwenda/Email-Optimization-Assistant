@@ -1,6 +1,6 @@
 # 📧 Email Optimization Assistant
 
-This project automates daily email summarization and organization using the Gmail and OpenAI APIs.
+This ongoing project automates daily email summarization and organization using the Gmail and OpenAI APIs.
 
 ---
 
