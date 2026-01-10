@@ -1,12 +1,12 @@
-# 📧 Email Optimization Assistant
+# Email Optimization Assistant
 
 This ongoing project automates daily email summarization and organization using the Gmail and OpenAI APIs.
 
 ---
 
-## 🧠 Overview
+## Overview
 - Extracts Gmail emails from the previous day (24hrs) using Google API  
-- Summarizes them using GPT-4 (OpenAI API)  
+- Summarizes the emails using GPT-5 mini (OpenAI API)  
 - Saves a concise daily report  
 - Runs automatically via scheduler or GitHub Actions
 - Deletes (moves to trash folder) some emails (subscriptions, spams, and promotions)
@@ -14,7 +14,7 @@ This ongoing project automates daily email summarization and organization using 
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```mermaid
 flowchart TD
