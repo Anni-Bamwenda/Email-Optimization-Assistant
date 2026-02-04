@@ -20,5 +20,5 @@ flowchart TD
   A["Fetch Emails (Gmail API)"] --> B["Delete Unwanted Emails"]
   B --> C["Summarize Text (OpenAI API"]
   C --> D["Save Summary File"]
-  C --> D["Automated Scheduler or CI/CD"]
+  D --> E["Automated Scheduler or CI/CD"]
 ```
