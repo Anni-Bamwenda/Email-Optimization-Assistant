@@ -1,6 +1,6 @@
 # Email Optimization Assistant
 
-This ongoing project automates daily email summarization and organization using the Gmail and OpenAI APIs.
+This project automates daily email summarization and organization using the Gmail and OpenAI APIs.
 
 ---
 
@@ -8,8 +8,8 @@ This ongoing project automates daily email summarization and organization using 
 - Extracts Gmail emails from the previous day (24hrs) using Google API  
 - Deletes (moves to trash folder) unwanted emails (subscriptions, spams, social, promotions, notifications, and noreplys) to free up space
 - Summarizes inbox emails using GPT-5 mini (OpenAI API)  
-- Saves a concise daily report  
-- Runs automatically via scheduler or GitHub Actions
+- Saves and emails a concise daily report  
+- Runs automatically via launchd macOS scheduler
 
 ---
 
@@ -20,5 +20,5 @@ flowchart TD
   A["Fetch Emails (Gmail API)"] --> B["Delete Unwanted Emails"]
   B --> C["Summarize Text (OpenAI API"]
   C --> D["Save Summary File"]
-  D --> E["Automated Scheduler or CI/CD"]
+  D --> E["Automated Scheduler"]
 ```
